@@ -1,5 +1,5 @@
-import {app} from './server/server'
+import {server} from './server/server.js'
 
-app.listen(3000, ()=>{
-    console.log('app rodando...')
+server.listen(process.env.PORT, ()=>{
+    console.log(`app rodando na porta ${process.env.PORT || 3333}`)
 })

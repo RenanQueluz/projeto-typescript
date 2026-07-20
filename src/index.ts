@@ -1,5 +1,5 @@
-import {server} from './server/server.js'
+import {server} from './server/server.js' //express
 
 server.listen(process.env.PORT, ()=>{
-    console.log(`app rodando na porta ${process.env.PORT || 3333}`)
+    console.log(`servidor rodando na porta ${process.env.PORT || 3000}`)
 })

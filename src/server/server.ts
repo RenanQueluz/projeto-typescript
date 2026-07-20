@@ -9,6 +9,7 @@ const server = express();
 server.use(router)
 server.use(express.json())
 
+
 dotenv.config();
 
 export { server };
